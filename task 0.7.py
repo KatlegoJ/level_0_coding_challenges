@@ -1,9 +1,10 @@
-#convert celsius to fahrenheit
-def temp (celsius):
-    fahrenheit = (celsius * 9/5) + 32
-    return fahrenheit
+def convert(fahrenheit_to_celsius):
+    
+    return (fahrenheit_to_celsius * 9/5) + 32
+convert (71)
 
-#convert fahrenheit to celsius
-def temp (fahrenheit):
-    celsius = (fahrenheit - 32) * 5/9
-    return celsius
+
+def convert(celsius_to_fahrenheit):
+   
+    return (celsius_to_fahrenheit - 32) *5/9
+convert (159.8)

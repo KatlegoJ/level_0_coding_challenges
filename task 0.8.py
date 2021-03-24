@@ -1,9 +1,9 @@
-def convert(seconds): 
-    seconds = seconds % (24 * 3600) 
-    hours = seconds // 3600
-    seconds %= 3600
-    minutes = seconds // 60
-    seconds %= 60
+def convert(any_number):
+    hours = any_number//60
+    minutes = any_number*60 % 24 
+    
+    
       
-    return "%d'hours,%02d'minutes" % (hours, minutes) 
+    return "%d hours,%d minutes" % (hours, minutes)
+convert (71)
        

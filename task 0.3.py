@@ -1,4 +1,4 @@
 def hello(name):
     
-        return "Hello" + " " + name + "!"
-        hello ("Tshepo")
+        print ("Hello" + " " + name + "!")
+hello ("Tshepo")
